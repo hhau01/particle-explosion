@@ -1,6 +1,6 @@
 # particle-explosion
 
-C++ particle explosion
+C++ particle explosion fo fun
 
 #include <SDL2/SDL.h>
 
