@@ -14,8 +14,6 @@ int main() {
         cout << "Error initializing SDL." << endl;
     }
 
-    int max = 0;
-
     // game loop
     while(true) {
         // update particles
