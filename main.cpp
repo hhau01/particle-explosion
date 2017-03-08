@@ -31,6 +31,9 @@ int main() {
 
         int elapsed = SDL_GetTicks();
 
+        screen.clear();
+        swarm.update();
+
         unsigned char red = (unsigned char)((1 + sin(elapsed * 0.0007)) * 128);
         unsigned char green = (unsigned char)((1 + cos(elapsed * 0.0008)) * 128);
         unsigned char blue = (unsigned char)((1 + sin(elapsed * 0.0009)) * 128);
@@ -46,6 +49,7 @@ int main() {
             screen.setPixel(x, y, red, green, blue);
         }
 
+        // background color
         // for(int y = 0; y < Screen::SCREEN_HEIGHT; y++) {
         //     for(int x = 0; x < Screen::SCREEN_WIDTH; x++) {
         //         screen.setPixel(x, y, red, green, blue);
