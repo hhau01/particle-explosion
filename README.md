@@ -15,6 +15,7 @@ g++ *.cpp -w -lSDL2 -o output
 ```
 
 Here are some photos of the process:
+(The gifs do not do these justice. They look much better when ran natively.)
 ![alt text](https://github.com/hhau01/particle-explosion/img/explosion1.gif "Explosion 1")
 
 After boxBlur application, it starts to look a bit cooler
