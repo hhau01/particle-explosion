@@ -16,13 +16,13 @@ g++ *.cpp -w -lSDL2 -o output
 
 Here are some photos of the process:
 (The gifs do not do these justice. They look much better when ran natively.)
-![alt text](https://github.com/hhau01/particle-explosion/img/explosion1.gif "Explosion 1")
+![](https://github.com/hhau01/particle-explosion/blob/master/img/explosion1.gif)
 
 After boxBlur application, it starts to look a bit cooler
-![alt text](https://github.com/hhau01/particle-explosion/img/explosion2.gif "Explosion 2")
+![](https://github.com/hhau01/particle-explosion/blob/master/img/explosion2.gif)
 
 Gave it varying speed and a clockwise radial spin
-![alt text](https://github.com/hhau01/particle-explosion/img/explosion3.gif "Explosion 3")
+![](https://github.com/hhau01/particle-explosion/blob/master/img/explosion3.gif)
 
 If you let it run for a bit, you get some cool colors!
-![alt text](https://github.com/hhau01/particle-explosion/img/explosion4.gif "Explosion 4")
+![](https://github.com/hhau01/particle-explosion/blob/master/img/explosion4.gif)
