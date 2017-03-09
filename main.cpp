@@ -1,11 +1,9 @@
 #include <iostream>
 #include <SDL2/SDL.h>
-#include <stdio.h>
 #include "Screen.h"
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
-#include "Particle.h"
 #include "Swarm.h"
 
 using namespace std;
@@ -33,9 +31,9 @@ int main() {
 
         swarm.update(elapsed);
 
-        unsigned char red = (unsigned char)((1 + sin(elapsed * 0.0007)) * 128);
-        unsigned char green = (unsigned char)((1 + cos(elapsed * 0.0008)) * 128);
-        unsigned char blue = (unsigned char)((1 + sin(elapsed * 0.0009)) * 128);
+        unsigned char red = (unsigned char)((1 + sin(elapsed * 0.0001)) * 128);
+        unsigned char green = (unsigned char)((1 + sin(elapsed * 0.0002)) * 128);
+        unsigned char blue = (unsigned char)((1 + sin(elapsed * 0.0003)) * 128);
 
         const Particle * const pParticles = swarm.getParticles();
 
